@@ -1,0 +1,92 @@
+/* .sticky-col {
+    position: sticky;
+    left: 0;
+    background-color: #fff; 
+    z-index: 1;
+} */
+
+.table-responsive {
+    border-left: solid 1px #ccc;
+    border-right: solid 1px #ccc;
+    /* border: solid 1px #ccc; */
+}
+
+.table-cebra .sticky-col1 {
+    position: sticky;
+    left: 0;
+}
+
+.table-cebra .sticky-col2 {
+    position: sticky;
+    left: 150px;
+}
+
+/* Fondo blanco */
+.table-cebra tbody tr .sticky-col1 {
+    background: white;
+}
+
+/* Fondo gris cuando sea fila par  */
+.table-cebra tbody tr:nth-child(2n) .sticky-col1 {
+    background: #f2f2f2;
+}
+
+/* Fondo blanco */
+.table-cebra tbody tr .sticky-col2 {
+    background: white;
+}
+
+/* Fondo gris cuando sea fila par  */
+.table-cebra tbody tr:nth-child(2n) .sticky-col2 {
+    background: #f2f2f2;
+}
+
+
+
+/* Clase de la tabla */
+.table-cebra {
+    border-top: solid 1px #ccc;
+    border-spacing: 0;
+}
+
+/* Cabecera */
+.table-cebra thead th {
+    background: #f2f2f2;
+    color: black;
+}
+
+/* Celdas cuerpo y cabeceras */
+.table-cebra th, 
+.table-cebra td {
+    border-right: 1px solid #ccc;
+    min-width: 150px;
+    padding: 0.5rem;
+    text-align: left;
+}
+
+/* Celdas cuerpo y cabeceras último hijo */
+.table-cebra th:last-child, 
+.table-cebra td:last-child {
+    border-right: 0;
+}
+
+/* Bordes inferior td */
+.table-cebra td {
+    border-bottom: 1px solid #ccc;
+}
+
+/* Fondo blanco */
+.table-cebra tbody tr {
+    background: white;
+}
+
+/* Fondo gris cuando sea fila par  */
+.table-cebra tbody tr:nth-child(2n) {
+    background: #f2f2f2;
+}
+
+
+
+
+
+
